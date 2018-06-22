@@ -25,7 +25,7 @@ function init() {
 
         userAddress = web3.eth.coinbase;
         title = '<h1>Your Timeline (<a href="https://etherscan.io/address/' + userAddress + '">' + userAddress.slice(0, 10) + '...</a>)</h1><hr>'
-        
+
         new Promise((resolve,reject)=>{
           web3.eth.getBalance(userAddress, function(error, result){
             if(!error)
@@ -59,7 +59,7 @@ function init() {
         }).then((result)=>{
           $('#gasPrices').append(result)
         })
-        
+
       } else {
         showBuy = true;
         title = '<h1>Timeline for <a href="https://etherscan.io/address/' + userAddress + '">' + userAddress.slice(0, 10) + '...</a></h1><hr>'
