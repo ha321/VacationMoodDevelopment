@@ -4,6 +4,8 @@ var abi = null;
 var contractAddress = "0x4de397226ecf480d7ea1873f7ee0295c4616cf22";
 var account = null;
 
+console.log('test');
+
 function init() {
 
     // Is there is an injected web3 instance?
