@@ -8,9 +8,17 @@ if (typeof web3 !== 'undefined') {
   web3 = new Web3(web3.currentProvider);
 } else {
   // set the provider you want from Web3.providers
-  web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+  web3 = new Web3(new Web3.providers.HttpProvider("http://127.0.0.1:7545"));
 }
-console.log(web3.eth);
+
+var metamaskURL = "https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn";
+var metamaskLink = "<a style='text-decoration: none; border-bottom: 1px solid #8bacb9; color: #8bacb9;' target= '_blank' href=' " + metamaskURL + " ' >Chrome Web Store</a> ";
+var metamaskElement = document.getElementById('metamask');
+
+if(web3.isConnected()) {
+  console.log("Connected to server");
+}
+
 // function init() {
 //
 //     // Is there is an injected web3 instance?
