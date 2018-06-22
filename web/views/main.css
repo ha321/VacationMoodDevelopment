@@ -1,5 +1,5 @@
 body {
-    background-color: #13233f;
+    background-color: red;
 }
 
 /*.container {
@@ -44,7 +44,7 @@ body {
   max-width: 75%;
   height: 350px;
   margin: 100px auto;
-  background: #2e466d url(/images/alice.jpeg) 37px center no-repeat;
+
   box-shadow: 0 1px 3px 0 rgba(50, 50, 93, 0.15);
   border-radius: 6px;
   border: 2px solid #8bacb9;
@@ -103,7 +103,7 @@ body {
   max-width: 75%;
   height: 350px;
   margin: 100px auto;
-  background: #2e466d url(/images/alice.jpeg) 37px center no-repeat;
+
   box-shadow: 0 1px 3px 0 rgba(50, 50, 93, 0.15);
   border-radius: 6px;
   border: 2px solid #8bacb9;
@@ -134,23 +134,23 @@ body {
 
 .container .btn {
     position: absolute;
-    top: 2200px;
+    top: 830px;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #2e466d;
+    background-color: #E6853B;
     color: #c8f0ff;
     font-size: 24px;
-    padding: 12px 24px;
-    border: 2px solid #8bacb9;
+    padding: 20px 24px;
+    border: 3px dotted white;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
-    width: 300px;
+    width: 275px;
 }
 
 .container .btn:hover {
-    background-color: #061225;
+    background-color: orange;
 }
 
 /* Media Queries */
@@ -176,7 +176,6 @@ body {
     width: auto;
     height: auto;
     padding: 120px 15px 15px;
-    background: #2e466d url(/images/alice.jpeg) center 20px no-repeat;
     background-size: 68px 86px;
     box-shadow: 0 1px 3px 0 rgba(50, 50, 93, 0.15);
     border-radius: 6px;
