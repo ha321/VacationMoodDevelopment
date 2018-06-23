@@ -4,11 +4,11 @@ import "openzeppelin-solidity/contracts/token/ERC721/ERC721Token.sol";
 import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
 
 /**
- * @title CryptoPuff
- * CryptoPuff - a contract for my non-fungible crypto puffs.
+ * @title VacationMood
+ * VacationMood - a contract for my non-fungible macarons.
  */
 contract VacationMood is ERC721Token, Ownable {
-    function VacationMood() ERC721Token("Alicein", "ALICE") public { }
+    function VacationMood() ERC721Token("VacationMood", "VACATION") public { }
 
     /**
     * @dev Mints a token to an address with a tokenURI.
