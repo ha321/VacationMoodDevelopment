@@ -453,10 +453,10 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x230b5cde7b04d3814f6599be79fe9b2570279a1b",
-      "transactionHash": "0x0ca7fe34c5ae79ba1e09bbb98be1cc5a0bc95afeebf23345e4a7aef9616852ad"
+      "address": "0x2fad15ef0f2117bd23ab68fbaf769bdf24c80e46",
+      "transactionHash": "0xa24933c088994c3f2df3b3b3018b204ad755ff09bc14a514fd56b233c3a2bc23"
     }
   },
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-06-24T21:11:42.669Z"
+  "updatedAt": "2018-06-24T21:25:33.989Z"
 }
