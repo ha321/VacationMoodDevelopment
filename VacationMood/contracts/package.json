@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "openzeppelin-solidity": "1.10.0"
+    "openzeppelin-solidity": "^1.10.0"
   },
   "devDependencies": {},
   "scripts": {
