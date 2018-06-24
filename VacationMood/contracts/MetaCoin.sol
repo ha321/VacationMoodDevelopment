@@ -5,7 +5,7 @@ import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
 
 /**
  * @title VacationMood
- * VacationMood - a contract for my non-fungible macarons.
+ * VacationMood - a contract for my non-fungible macaroons.
  */
 contract VacationMood is ERC721Token, Ownable {
     function VacationMood() ERC721Token("VacationMood", "VACATIONMOOD") public { }
