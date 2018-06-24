@@ -1,5 +1,5 @@
 body {
-    background-color: red;
+    background-color: #eb3a0b;
 }
 
 /*.container {
@@ -22,7 +22,7 @@ body {
   width: 100%;
   font-family: system-ui;
   opacity: 0;
-  background: #132340;
+  background: '#132340';
   text-align: left;
   transition: visibility 0s, opacity 0.5s linear 0.5s;
 }
