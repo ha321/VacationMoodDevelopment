@@ -1,12 +1,31 @@
 
-var contract = null;
-var abi = null;
-var contractAddress = "0x4de397226ecf480d7ea1873f7ee0295c4616cf22";
-var account = null;
+// var contract = null;
+// var abi = null;
+// var contractAddress = "0x552b16f3bf0c9ce0dcd16736ea8fb07bc01c1fd0";
+// var account = null;
 
 const assert = require('assert');
 const ganache = require('ganache-cli');
 const Web3 = require('web3');
+const web3 = new Web3(ganache.provider());
+
+class Car {
+  park() {
+    return 'stopped';
+  }
+
+  drive() {
+    return 'vroom';
+  }
+}
+
+describe('Car', () => {
+  it('park can park', () => {
+    const car = new Car();
+    assert.equal(car.park(), 'stopped');
+  });
+});
+
 
 // function init() {
 //     // Is there is an injected web3 instance?
