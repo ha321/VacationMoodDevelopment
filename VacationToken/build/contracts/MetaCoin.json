@@ -2509,6 +2509,7 @@
     "5777": {
       "events": {},
       "links": {
+<<<<<<< HEAD:VacationToken/build/contracts/MetaCoin.json
         "ConvertLib": "0x230b5cde7b04d3814f6599be79fe9b2570279a1b"
       },
       "address": "0x819dfbf2413771b7266d602714135939d823c24b",
@@ -2517,4 +2518,14 @@
   },
   "schemaVersion": "2.0.1",
   "updatedAt": "2018-06-25T05:26:25.528Z"
+=======
+        "ConvertLib": "0x43f0af8dcd14eea6e172dd3f79e8c72c8596673c"
+      },
+      "address": "0x0efd1091f8b3d27efeda109bfc1db79cb31777fb",
+      "transactionHash": "0xc79010f7799073e5f017c4a971fdea62b353fe5bc7bb54f9ce77027e2971221c"
+    }
+  },
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-06-24T22:54:41.606Z"
+>>>>>>> 7d0271e83d351b979128701c47284123da2708e1:VacationMood/build/contracts/MetaCoin.json
 }
